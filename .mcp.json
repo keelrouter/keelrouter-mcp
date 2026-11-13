@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "keelrouter": {
+      "type": "http",
+      "url": "https://api.keelrouter.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${KEELROUTER_API_KEY}"
+      }
+    }
+  }
+}

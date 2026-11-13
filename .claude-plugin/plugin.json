@@ -1,0 +1,28 @@
+{
+  "name": "keelrouter-mcp",
+  "version": "1.0.0",
+  "description": "Generate images and videos with Seedream, GPT Image, Nano Banana, Kling and Seedance on one key.",
+  "author": {
+    "name": "KeelRouter",
+    "url": "https://keelrouter.com"
+  },
+  "homepage": "https://keelrouter.com/docs#mcp",
+  "repository": "https://github.com/keelrouter/keelrouter-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "image-generation",
+    "video-generation",
+    "ai-router",
+    "seedream",
+    "kling",
+    "skills",
+    "claude-code",
+    "cursor"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

@@ -19,5 +19,9 @@
         }
       ]
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/keelrouter/keelrouter-mcp",
+    "source": "github"
+  }
 }

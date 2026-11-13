@@ -67,6 +67,15 @@ npx skills add keelrouter/keelrouter-mcp
 
 or copy the folder into your agent's skills directory (for Claude Code, `~/.claude/skills/keelrouter/`).
 
+
+### One-line prompt for any AI agent
+
+Paste into Claude Code, Cursor, Codex, or Gemini CLI:
+
+```text
+Read https://raw.githubusercontent.com/keelrouter/keelrouter-mcp/main/skills/keelrouter/SKILL.md and generate images or videos through KeelRouter.
+```
+
 ## Support
 
 support@keelrouter.com
