@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.keelrouter/keelrouter",
+  "title": "KeelRouter",
+  "description": "Generate images and videos with Seedream, GPT Image, Nano Banana, Kling and Seedance on one key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://keelrouter.com/docs#mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.keelrouter.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your key>. Create a key at https://keelrouter.com/console/keys",
+          "value": "Bearer {api_key}",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
